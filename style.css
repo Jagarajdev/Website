@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222831;
+  color: #ffd369;
+}
+
+.head {
+  padding: 3%;
+  margin-left: 0;
+}
+
+h1 {
+  font-size: 20rem;
+  margin: 0;
+  font-family: 'Fredoka One', cursive;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Bungee', cursive;
+}
+
+a {
+  margin-right: 25px;
+  margin-top: 35px;
+  color: #ffd369;
+}
+
+.contact_icon {
+  padding: 10px 0;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  body {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 12rem;
+  }
+
+  a {
+    margin: 35px 10px;
+  }
+}
